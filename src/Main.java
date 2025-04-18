@@ -7,8 +7,7 @@ public class Main {
         System.out.println("Введите второе число ");
         int num2 = scanner.nextInt();
         System.out.println("Введите действие ");
-        String action = scanner.nextLine();
-        action = scanner.nextLine();
+        String action = scanner.next();
         switch (action){
             case "+":
                 int res1 = num1 + num2;
