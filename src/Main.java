@@ -22,6 +22,11 @@ public class Main {
                 System.out.println("Результат умнажения: " + res3);
                 break;
             case "/":
+                if (num1 == 0 || num2 == 0 ){
+                    System.out.println("на ноль делить нельзя");
+                    break;
+                }
+
                 int res4 = num1 / num2;
                 System.out.println("Результат деления: " + res4);
                 break;
